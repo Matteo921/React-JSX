@@ -1,3 +1,4 @@
+
 var contacts = [
     {
       id: 1,
@@ -24,13 +25,14 @@ var contactForm = {
     lastName: '',
     email: ''
 };
-var App = React.createElement({
-	render: function() {
-		return(
-			<div className = {'app'}>
-				<ContactForm contact = {contactForm}/>
-				<Contacts item={contacts}/>
-			</div>
-		);
-	}
+
+var App = React.createClass({
+    render: function() {
+        return (
+          <div className={'app'}>
+            <ContactForm contact={contactForm}/>
+            <Contacts items={contacts}/>
+          </div>
+        );
+    }
 });
