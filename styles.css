@@ -1,0 +1,29 @@
+body{
+	background-color:  #DDDDDA;
+}
+.contactItem{
+	background-color: yellowgreen;
+	width: max-content;
+	padding: 1rem;
+	flex-wrap: wrap;
+	margin-right: 5px;
+}
+.contactForm{
+	text-align: center;
+}
+.contactsList{
+	display: flex;
+	text-align: center;
+	box-shadow: 
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+p.contactLabel{
+	border: solid 1px black;
+}
+#app{
+	max-width: 1000px;
+	max-height: 600px;
+	text-align: -webkit-center;
+}
